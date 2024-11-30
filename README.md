@@ -12,6 +12,7 @@ They were written by Dario Dariol and Giovanni Cozzi, and are
 included for your hacking pleasure.
 
 ## Build
-'''
+```
 ./config.gcc i386-sysv
-'''
+```
+
