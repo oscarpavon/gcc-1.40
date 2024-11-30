@@ -14,5 +14,6 @@ included for your hacking pleasure.
 ## Build
 ```
 ./config.gcc i386-sysv
+make -j1 CC="gcc -O -Wno-implicit-int -Wno-return-mismatch -Wno-implicit-function-declaration -Wno-int-to-pointer-cast -Wno-builtin-declaration-mismatch -Wno-int-conversion"
 ```
 
